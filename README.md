@@ -1,0 +1,2 @@
+# twrp_device_HUAWEI_HWTAG-L6753
+For TAG-AL00
