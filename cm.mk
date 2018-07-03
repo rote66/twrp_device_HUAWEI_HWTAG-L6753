@@ -23,3 +23,16 @@ PRODUCT_NAME := lineage_TAG_AL00
 PRODUCT_BRAND := HUAWEI
 PRODUCT_MODEL := HUAWEI TAG-AL00
 PRODUCT_MANUFACTURER := HUAWEI
+
+# These additionals go to /default.prop
+ADDITIONAL_DEFAULT_PROPERTIES += ro.secure=0 \
+ro.allow.mock.location=1 \
+ro.debuggable=1 \
+ro.adb.secure=0 \
+service.adb.root=1 \
+ro.sf.lcd_density=320 \
+ro.sys.usb.storage.type=mtp,adb \
+persist.sys.timezone=Asia/Shanghai \
+ro.xtreme.team.romer=wanyikai0791 \
+ro.xar.team.romer=wanyikai0791
+#ro.product.device=HWTAG-L6753
